@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Wagon Race</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class= "container text-center" id="char">
+      <div>
+        <h1>CHOOSE YOUR RUNNERS!</h1>
+        <button class="btn btn-2 btn-begin">Click here to begin</button>
+        <div class="row">
+          <ul class="list-inline card" style="width: 18rem;">
+            <h2>PLAYER 1</h2>
+            <li class= "">
+              <div>
+                <img src="resources/doggo.gif" alt="doggo" class="images card-img-top">
+                <p>Z</p>
+              </div>
+            </li>
+            <li class= "">
+              <div>
+                <img src="resources/flash.gif" alt="flash" class="images card-img-top">
+                <p>X</p>
+              </div>
+            </li>
+            <li class= "">
+              <div>
+                <img src="resources/mario.gif" alt="mario" class="images card-img-top">
+                <p>C</p>
+              </div>
+            </li>
+            <li class= "">
+              <div>
+                <img src="resources/megaman.gif" alt="megaman" class="images card-img-top">
+                <p>V</p>
+              </div>
+            </li>
+            <li class= "">
+              <div>
+                <img src="resources/sonic.gif" alt="sonic" class="images card-img-top">
+                <p>B</p>
+              </div>
+            </li>
+            <li class= "">
+              <div>
+                <img src="resources/spidey.gif" alt="spidey" class="images card-img-top">
+                <p>N</p>
+              </div>
+            </li>
+          </ul>
+          <ul class="list-inline card right" style="width: 18rem;">
+            <h2>PLAYER 2</h2>
+            <li class= "">
+              <div>
+                <img src="resources/doggo.gif" alt="doggo" class="images card-img-top">
+                <p>A</p>
+              </div>
+            </li>
+            <li class= "">
+              <div>
+                <img src="resources/flash.gif" alt="flash" class="images card-img-top">
+                <p>S</p>
+              </div>
+            </li>
+            <li class= "">
+              <div>
+                <img src="resources/mario.gif" alt="mario" class="images card-img-top">
+                <p>D</p>
+              </div>
+            </li>
+            <li class= "">
+              <div>
+                <img src="resources/megaman.gif" alt="megaman" class="images card-img-top">
+                <p>F</p>
+              </div>
+            </li>
+            <li class= "">
+              <div>
+                <img src="resources/sonic.gif" alt="sonic" class="images card-img-top">
+                <p>G</p>
+              </div>
+            </li>
+            <li class= "">
+              <div>
+                <img src="resources/spidey.gif" alt="spidey" class="images card-img-top">
+                <p>H</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="race">
+      <h1 class="text-center">Wagon Race</h1>
+      <hr>
+        <table class="racer_table">
+          <tr id="player1_race">
+            <td class="active"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><img src="resources/bitcoin.gif" alt="bitcoin"></td>
+          </tr>
+          <tr id="player2_race">
+            <td class="active"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><img src="resources/bitcoin.gif" alt="bitcoin"></td>
+          </tr>
+        </table>
+      <hr>
+    </div>
+    <div id="end" class="ending container wrapper text-center">
+      <h1>YOU WON!!!</h1>
+      <p>I mean, it doesn't really mean something to win this game, I bet you would be prouder of yourself if you just did that thing that you need to do. But like...Yay!</p>
+      <button class="btn btn-2 btn-end">Click here to restart</button>
+    </div>
+    <script src="build/application.js"></script>
+  </body>
+</html>
