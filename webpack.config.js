@@ -1,7 +1,8 @@
-const path = require("path");
+zconst path = require("path");
 
 module.exports = {
-  entry: path.resolve("./src/index.js"),
+  // entry: path.resolve(__dirname, "./lib/wagon_race.js"),
+  entry:"./lib/wagon_race.js",
   output: {
     filename: "build/application.js"
   },
